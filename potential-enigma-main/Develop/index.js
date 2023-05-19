@@ -22,29 +22,45 @@ const questions = [
         message: "Table of Contents.",
     },
     {
+        type: "checkbox",
+        name: "license",
+        message: "Select a license you used for this project",
+        choices: ["MIT", "APACHE2.0", "Boost1.0", "None"],
+    },
+    {
         type: "input",
-        
+        name: "require",
+        message: "list project dependencies here (If Applicable).",
     },
     {
-
+        type: "input",
+        name: "usage",
+        message: "How do you use the app? (Give Instructions)",
     },
     {
-
+        type: "input",
+        name: "creator",
+        message: "Type your GitHub username.",
     },
     {
-
+        type: "input",
+        name: "name",
+        message: "Type your FULL Name.",
     },
     {
-
+        type: "input",
+        name: "email",
+        message: "Enter a valid Email."
     },
     {
-
+        type: "input",
+        name: "",
+        message: "",
     },
     {
-
-    },
-    {
-
+        type: "input",
+        name: "test",
+        message: ""
     },
     {
 
